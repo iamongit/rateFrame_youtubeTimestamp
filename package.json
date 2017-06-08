@@ -4,7 +4,7 @@
   "description": "Timestamp collector from playing youtube video",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/iamongit/rateFrame_youtubeTimestamp/issues"
   },
-  "homepage": "https://github.com/iamongit/rateFrame_youtubeTimestamp#readme"
+  "homepage": "https://github.com/iamongit/rateFrame_youtubeTimestamp#readme",
+  "dependencies": {
+    "angular-route": "^1.6.4",
+    "express": "^4.15.3"
+  }
 }
