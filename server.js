@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname + '/')));
 const port = process.env.PORT || 3000;
 app.listen(port, function (error) {
 	if(!error){
-		console.log('Ratefreme listening on port ' + port);
+		console.log('Rateframe listening on port ' + port);
 	} else {
 		console.log('Error connecting server')
 	}

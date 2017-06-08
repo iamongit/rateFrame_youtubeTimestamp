@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/iamongit/rateFrame_youtubeTimestamp#readme",
   "dependencies": {
-    "angular-route": "^1.6.4",
+    "angular": "^1.6.4",
     "express": "^4.15.3"
   }
 }

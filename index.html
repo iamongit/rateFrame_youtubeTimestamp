@@ -1,0 +1,12 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="node_modules/angular/angular.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="index.js"></script>
+<div ng-app="rateframe">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <div ng-controller="appController" class="corner">
+    <div id="player"></div>
+    <button class = "button" ng-click='getTimeStamp(); reset()'> Get Timestamp </button>
+  </div>
+</div>
