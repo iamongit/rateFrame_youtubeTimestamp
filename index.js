@@ -46,7 +46,7 @@ angular.module('rateframe', [])
     $scope.getTimeStamp = function(){
       const body = angular.element(document).find('body').eq(0);
       if(player.getPlayerState() ===1){
-        body.append(player.getCurrentTime());
+        body.append('<div><strong>Timestamp: </strong>'+ player.getCurrentTime() +'</div>');
         body.append(angular.element('<br>'));
       }
     }
